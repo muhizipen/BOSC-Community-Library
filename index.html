@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOSC Community Library</title>
     <style>
+        select {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
         body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
         .resource { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
         .resource h3 { margin: 0 0 10px 0; color: #2c3e50; }
@@ -20,6 +26,15 @@
     <input type="text" id="searchInput" class="search-box" placeholder="Search resources...">
     <button onclick="searchResources()">Search</button>
     <button onclick="resetSearch()">Reset</button>
+    <br><br>
+<select id="categoryFilter" onchange="filterByCategory()">
+    <option value="all">All Categories</option>
+    <option value="programming">Programming</option>
+    <option value="web">Web Development</option>
+    <option value="data">Data Science</option>
+    <option value="oss">Open Source</option>
+    <option value="security">Cybersecurity</option>
+</select>
 
     <div id="resourcesContainer"></div>
 
@@ -32,7 +47,16 @@
             { title: "Open Source Guide", category: "oss", url: "https://opensource.guide/", description: "How to contribute to open source" },
             { title: "Cybersecurity Basics", category: "security", url: "https://example.com/security", description: "Protect your digital life" }
         ];
-
+              function filterByCategory() {
+            const category = document.getElementById('categoryFilter').value;
+            let filtered;
+            if (category === 'all') {
+                filtered = resources;
+            } else {
+                filtered = resources.filter(r => r.category === category);
+            }
+            displayResources(filtered);
+        }
         function displayResources(resourcesToShow) {
             const container = document.getElementById('resourcesContainer');
             container.innerHTML = '';
@@ -51,26 +75,36 @@
             }
         }
 
-        function searchResources() {
-    const query = document.getElementById('searchInput').value.trim().toLowerCase();
-    if (query === '') {
-        displayResources(resources);
-        return;
-    }
-    const filtered = resources.filter(r => 
-        r.title.toLowerCase().includes(query) || 
-        r.description.toLowerCase().includes(query)
-    );
-    displayResources(filtered);
-}
-
-        function resetSearch() {
+                function searchResources() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            // First get current category filter
+            const category = document.getElementById('categoryFilter').value;
+            
+            // Filter by category first
+            let categoryFiltered;
+            if (category === 'all') {
+                categoryFiltered = resources;
+            } else {
+                categoryFiltered = resources.filter(r => r.category === category);
+            }
+            
+            // Then filter by search query
+            let filtered;
+            if (query === '') {
+                filtered = categoryFiltered;
+            } else {
+                filtered = categoryFiltered.filter(r => 
+                    r.title.toLowerCase().includes(query) || 
+                    r.description.toLowerCase().includes(query)
+                );
+            }
+            displayResources(filtered);
+        }
+                function resetSearch() {
             document.getElementById('searchInput').value = '';
+            document.getElementById('categoryFilter').value = 'all';
             displayResources(resources);
         }
-
-        // Initial display
-        displayResources(resources);
     </script>
 </body>
 </html>
