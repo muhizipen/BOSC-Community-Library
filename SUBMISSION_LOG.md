@@ -1,24 +1,24 @@
  Submission Log – BOSC Community Library Exam
 
-Student Name:** Muhizi Gad Penuel
+Student Name: Muhizi Gad Penuel
 
 GitHub Repository:** https://github.com/muhizipen/BOSC-Community-Library
 
-**Exam Period:** May 5-12, 2026
+Exam Period: May 5-12, 2026
 
 ---
 
-## 1. Git Activity Screenshots
+ 1. Git Activity Screenshots
 
-### Commit History Spread Across the Week
+ Commit History Spread Across the Week
 
-![Commit History](screenshots/commit-history.png)
+![Commit History](screenshots/Commit-History.PNG)
 
 *Screenshot showing commits spread across multiple days/hours*
 
 ---
 
-## 2. Resolved Issues – All 5 Issues
+ 2. Resolved Issues – All 5 Issues
 
 All 5 issues have been created, resolved with branches, merged via PRs, and closed.
 
@@ -30,39 +30,40 @@ All 5 issues have been created, resolved with branches, merged via PRs, and clos
 | #4 | Add resource count display | ✅ Closed |
 | #5 | Refactor: Move CSS to separate file | ✅ Closed |
 
-### Screenshot of Closed Issues
+ Screenshot of Closed Issues
 
-![Closed Issues](screenshots/closed-issues.png)
+![Closed Issues](screenshots/closed-issues.PNG)
 
 ---
 
-## 3. GitHub Profile Contribution Graph
+ 3. GitHub Profile Contribution Graph
 
-![Green Squares Graph](screenshots/green-squares.png)
-
+![Green Squares Graph](screenshots/green-squares.PNG)
 *Shows activity during exam week (May 5-12, 2026)*
 
 ---
 
-## 4. Peer Review Evidence
+ 4. Peer Review Evidence
 
 Below are screenshots showing peer review comments on pull requests.
 
-### Pull Request #1 – Fix broken link
+ Pull Request #1 – Fix broken link
 
-![Peer Review PR #1](screenshots/peer-review-pr1.png)
+![Peer Review PR #1](screenshots/peer-review-pr1.PNG)
 
-### Pull Request #2 – Category filter dropdown
+PR #2 Review:**
+![Peer Review PR #2](screenshots/peer-review-pr2.PNG)
 
-![Peer Review PR #2](screenshots/peer-review-pr2.png)
+ Pull Request #2 – Category filter dropdown
 
-### Pull Request #5 – CSS refactoring
+![Peer Review PR #2](peer-review-pr2.PNG)
 
-![Peer Review PR #5](screenshots/peer-review-pr5.png)
+Pull Request #5 – CSS refactoring
+![Peer Review PR #5](screenshots/peer-review-pr5.PNG)
+
 
 ---
-
-## 5. File Structure Verification
+ 5. File Structure Verification
 
 Required files all present in repository:
 
@@ -94,6 +95,6 @@ Required files all present in repository:
 
 ---
 
-**Date of Submission:** May 6, 2026
+Date of Submission: May 6, 2026
 
 **Submitted by:** Muhizi Pen
