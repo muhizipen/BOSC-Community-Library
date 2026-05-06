@@ -1,6 +1,7 @@
  Submission Log – BOSC Community Library Exam
 
 Student Name: Muhizi Gad Penuel
+reg no: 23/bcn/bu/r/0006
 
 GitHub Repository:** https://github.com/muhizipen/BOSC-Community-Library
 
@@ -97,4 +98,4 @@ Required files all present in repository:
 
 Date of Submission: May 6, 2026
 
-**Submitted by:** Muhizi Pen
+Submitted by: Muhizi Gad Penuel
