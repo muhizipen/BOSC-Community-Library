@@ -12,7 +12,7 @@ Exam Period: May 5-12, 2026
 
  Commit History Spread Across the Week
 
-![Commit History](Commit-History.PNG)
+![Commit History](screenshots/Commit-History.PNG)
 
 *Screenshot showing commits spread across multiple days/hours*
 
