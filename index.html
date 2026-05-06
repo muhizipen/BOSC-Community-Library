@@ -52,13 +52,17 @@
         }
 
         function searchResources() {
-            const query = document.getElementById('searchInput').value.toLowerCase();
-            const filtered = resources.filter(r => 
-                r.title.toLowerCase().includes(query) || 
-                r.description.toLowerCase().includes(query)
-            );
-            displayResources(filtered);
-        }
+    const query = document.getElementById('searchInput').value.trim().toLowerCase();
+    if (query === '') {
+        displayResources(resources);
+        return;
+    }
+    const filtered = resources.filter(r => 
+        r.title.toLowerCase().includes(query) || 
+        r.description.toLowerCase().includes(query)
+    );
+    displayResources(filtered);
+}
 
         function resetSearch() {
             document.getElementById('searchInput').value = '';
