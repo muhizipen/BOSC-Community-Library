@@ -1,13 +1,13 @@
  Submission Log – BOSC Community Library Exam
-
+Bsct 3221: Open source software final exam
 Student Name: Muhizi Gad Penuel
 reg no: 23/bcn/bu/r/0006
-
-GitHub Repository:** https://github.com/muhizipen/BOSC-Community-Library
+level :year 3,semester 2
+GitHub Repository: https://github.com/muhizipen/BOSC-Community-Library
 
 Exam Period: May 5-12, 2026
 
----
+
 
  1. Git Activity Screenshots
 
@@ -17,14 +17,13 @@ Exam Period: May 5-12, 2026
 
 *Screenshot showing commits spread across multiple days/hours*
 
----
+
 
  2. Resolved Issues – All 5 Issues
 
 All 5 issues have been created, resolved with branches, merged via PRs, and closed.
 
-| Issue | Title | Status |
-|-------|-------|--------|
+| Issue | Title |Status 
 | 1 | Fix broken Open Source Guide link |  Closed |
 | 2 | Add category filter dropdown | Closed |
 | 3 | Fix search trailing spaces bug |  Closed |
@@ -35,14 +34,14 @@ All 5 issues have been created, resolved with branches, merged via PRs, and clos
 
 ![Closed Issues](screenshots/closed-issues.PNG)
 
----
+
 
  3. GitHub Profile Contribution Graph
 
 ![Green Squares Graph](screenshots/green-squares.PNG)
 *Shows activity during exam week (May 5-12, 2026)*
 
----
+
 
  4. Peer Review Evidence
 
@@ -58,12 +57,10 @@ PR #2 Review:
  Pull Request #2 – Category filter dropdown
 
 ![Peer Review PR #2](peer-review-pr2.PNG)
-
 Pull Request #5 – CSS refactoring
 ![Peer Review PR #5](screenshots/peer-review-pr5.PNG)
 
 
----
  5. File Structure Verification
 
 Required files all present in repository:
@@ -81,7 +78,7 @@ Required files all present in repository:
 - [x] `index.html`
 - [x] `styles.css`
 
----
+
 
 6. Submission Checklist
 
@@ -94,8 +91,7 @@ Required files all present in repository:
 - [x] Reflective journal on governance
 - [x] Screenshots attached above
 
----
 
 Date of Submission: May 12, 2026
 
-Submitted by: Muhizi Gad Penuel
+
