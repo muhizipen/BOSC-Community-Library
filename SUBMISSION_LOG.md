@@ -25,11 +25,11 @@ All 5 issues have been created, resolved with branches, merged via PRs, and clos
 
 | Issue | Title | Status |
 |-------|-------|--------|
-| #1 | Fix broken Open Source Guide link | ✅ Closed |
-| #2 | Add category filter dropdown | ✅ Closed |
-| #3 | Fix search trailing spaces bug | ✅ Closed |
-| #4 | Add resource count display | ✅ Closed |
-| #5 | Refactor: Move CSS to separate file | ✅ Closed |
+| 1 | Fix broken Open Source Guide link |  Closed |
+| 2 | Add category filter dropdown | Closed |
+| 3 | Fix search trailing spaces bug |  Closed |
+| 4 | Add resource count display |  Closed |
+| 5 | Refactor: Move CSS to separate file | Closed |
 
  Screenshot of Closed Issues
 
@@ -52,7 +52,7 @@ Below are screenshots showing peer review comments on pull requests.
 
 ![Peer Review PR #1](screenshots/peer-review-pr1.PNG)
 
-PR #2 Review:**
+PR #2 Review:
 ![Peer Review PR #2](screenshots/peer-review-pr2.PNG)
 
  Pull Request #2 – Category filter dropdown
@@ -68,7 +68,7 @@ Pull Request #5 – CSS refactoring
 
 Required files all present in repository:
 
-- [x] `.github/ISSUE_TEMPLATE/bug_report.md`
+-  `.github/ISSUE_TEMPLATE/bug_report.md`
 - [x] `.github/ISSUE_TEMPLATE/feature_request.md`
 - [x] `.github/PULL_REQUEST_TEMPLATE.md`
 - [x] `CODE_OF_CONDUCT.md`
@@ -96,6 +96,6 @@ Required files all present in repository:
 
 ---
 
-Date of Submission: May 6, 2026
+Date of Submission: May 12, 2026
 
 Submitted by: Muhizi Gad Penuel
